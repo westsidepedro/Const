@@ -21,7 +21,7 @@ class Animal
 	    }
 	;
 
-	void speak() const	// now this is method is "safe" or "not changeable
+	void speak() const	// now this method is "safe" or "not changeable
 	    { //in-line implementation
 	    cout << "my Name is: " << name << endl;
 	    }
